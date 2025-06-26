@@ -1,0 +1,20 @@
+2025-06-11 22:09:38,590 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.78 confidence
+2025-06-11 22:15:22,900 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.81 confidence
+2025-06-11 22:22:50,782 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.80 confidence
+2025-06-11 22:27:40,569 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.76 confidence
+2025-06-11 22:27:42,570 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: ZONE_VIOLATION - ZONE VIOLATION: person detected in restricted area 'Parking Lot'
+2025-06-11 22:27:50,907 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.53 confidence
+2025-06-11 22:30:58,300 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.86 confidence
+2025-06-11 22:42:37,134 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.76 confidence
+2025-06-11 22:47:37,207 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.73 confidence
+2025-06-11 22:52:37,422 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.84 confidence
+2025-06-11 22:55:39,420 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.75 confidence
+2025-06-11 23:00:39,775 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.88 confidence
+2025-06-11 23:05:39,889 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.68 confidence
+2025-06-11 23:10:40,034 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.89 confidence
+2025-06-11 23:16:28,792 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.78 confidence
+2025-06-11 23:16:34,609 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.60 confidence
+2025-06-11 23:16:37,273 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: ZONE_VIOLATION - ZONE VIOLATION: person detected in restricted area 'Restricted Area 1'
+2025-06-11 23:16:46,651 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.83 confidence
+2025-06-11 23:18:30,776 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: THREAT_DETECTED - THREAT: person detected with 0.84 confidence
+2025-06-11 23:18:33,969 - SentinelX_Alerts - WARNING - create_alert:642 - CONFIRMED ALERT: ZONE_VIOLATION - ZONE VIOLATION: person detected in restricted area 'Parking Lot'

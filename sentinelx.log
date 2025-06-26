@@ -1,0 +1,8 @@
+2025-06-09 20:29:50,035 - SentinelX - INFO - Loaded YOLO model: yolov8n.pt
+2025-06-09 20:29:50,038 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-06-09 20:29:50,046 - easyocr.easyocr - WARNING - Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2025-06-09 20:30:12,377 - easyocr.easyocr - INFO - Download complete
+2025-06-09 20:30:12,391 - easyocr.easyocr - WARNING - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-06-09 20:30:17,480 - easyocr.easyocr - INFO - Download complete.
+2025-06-09 20:30:21,017 - SentinelX - INFO - OCR reader initialized
+2025-06-09 20:30:21,697 - SentinelX - INFO - Sound alert system initialized

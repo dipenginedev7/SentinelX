@@ -1,0 +1,112 @@
+{
+    "cameras": [
+        {
+            "id": 0,
+            "name": "Laptop Webcam",
+            "source": 0,
+            "type": "webcam",
+            "enabled": true,
+            "resolution": [640, 480],
+            "fps": 30
+        },
+        {
+            "id": 1,
+            "name": "Test Video",
+            "source": "sample_video-2.mp4",
+            "type": "video",
+            "enabled": false
+        },
+        {
+            "id": 2,
+            "name": "Secondary Camera",
+            "source": "http://192.168.1.100:8080/video",
+            "type": "ip_camera",
+            "enabled": false
+        }
+    ],
+    "models": {
+        "yolo_model": "yolov8n.pt",
+        "model_path": "./models/",
+        "ocr_languages": ["en"],
+        "load_on_startup": true
+    },
+    "alerts": {
+        "email": {
+            "enabled": true,
+            "smtp_server": "smtp.gmail.com",
+            "smtp_port": 587,
+            "use_tls": true,
+            "username": "your_email@gmail.com",
+            "password": "your_app_password",
+            "recipients": ["admin@company.com", "security@company.com"],
+            "subject_prefix": "[SECURITY ALERT]"
+        },
+        "webhook": {
+            "enabled": false,
+            "url": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
+            "timeout": 10,
+            "retry_attempts": 3
+        },
+        "sound": {
+            "enabled": true,
+            "alarm_sound": "alarm.wav",
+            "volume": 0.8
+        },
+        "log": {
+            "enabled": true,
+            "log_file": "security_alerts.log",
+            "max_size_mb": 100
+        }
+    },
+    "detection": {
+        "confidence_threshold": 0.5,
+        "nms_threshold": 0.4,
+        "threat_classes": ["knife", "gun", "person"],
+        "excluded_classes": ["car", "truck"],
+        "min_detection_size": 30,
+        "max_detections_per_frame": 50,
+        "restricted_zones": [
+            {
+                "name": "Restricted Area 1",
+                "coordinates": [[100, 100], [300, 100], [300, 300], [100, 300]],
+                "enabled": true,
+                "alert_level": "high"
+            },
+            {
+                "name": "Parking Lot",
+                "coordinates": [[400, 200], [600, 200], [600, 400], [400, 400]],
+                "enabled": true,
+                "alert_level": "medium"
+            }
+        ],
+        "motion_detection": {
+            "enabled": true,
+            "sensitivity": 0.3,
+            "min_area": 500
+        }
+    },
+    "recording": {
+        "enabled": true,
+        "format": "mp4",
+        "quality": "high",
+        "fps": 30,
+        "storage_path": "./recordings/",
+        "max_storage_gb": 50,
+        "retention_days": 30
+    },
+    "web_interface": {
+        "host": "127.0.0.1",
+        "port": 5000,
+        "debug": false,
+        "secret_key": "your-secret-key-here",
+        "max_upload_size_mb": 100,
+        "session_timeout": 3600
+    },
+    "system": {
+        "max_cpu_usage": 80,
+        "max_memory_usage": 75,
+        "frame_buffer_size": 100,
+        "processing_threads": 4,
+        "auto_restart_on_error": true
+    }
+}
